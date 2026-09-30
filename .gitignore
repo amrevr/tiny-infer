@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Test cache (written through the container bind mount)
+.pytest_cache/
+
+# macOS
+.DS_Store
