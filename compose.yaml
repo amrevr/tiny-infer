@@ -1,0 +1,12 @@
+services:
+  dev:
+    build: .
+    image: tiny-infer-dev
+    volumes:
+      - .:/work
+      - venv:/opt/venv
+      - cache:/cache
+
+volumes:
+  venv:
+  cache:
